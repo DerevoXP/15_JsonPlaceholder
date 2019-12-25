@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.page {
+  min-height: 100vh;
+}
+
+.page:nth-child(1) {
+  background-color: #dff9fb;
+}
+
+.page:nth-child(2) {
+  background-color: #c7ecee;
+}
+
+.page:nth-child(3) {
+  background-color: #95afc0;
+}
+
+.page:nth-child(4) {
+  background-color: dimgray;
+}
+
+#menuBtns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: fixed;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 10%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: 5px 0 0 2.5%;
+  font-family: 'Lobster', cursive;
+}
+
+#menuBtns .btn {
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: black;
+  color: #c7ecee;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.modell {
+  position: fixed;
+  font-family: 'Lobster', cursive;
+}
+
+.modell div {
+  background-color: #30336b;
+  color: #c7ecee;
+  margin: 40vh 33vw 40vh 33vw;
+  width: 33vw;
+  height: 20vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 15px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+#root {
+  display: inline-block;
+  margin: 30vh 35vw 0 35vw;
+  background-color: black;
+  border-radius: 10px;
+  width: 200px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  font-family: 'Pattaya', sans-serif;
+}
+
+#root .card {
+  padding: 10px;
+  margin: 15px 0 15px 15px;
+  background-color: black;
+  width: 150px;
+  color: #dff9fb;
+  text-align: center;
+  cursor: pointer;
+}
+
+.posts .card {
+  display: inline-block;
+  width: 80%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: #535c68;
+  margin: 16px 5% 10px 15%;
+  border-radius: 10px;
+  padding: 15px;
+  font-family: 'Lobster', cursive;
+}
+
+.posts .card h2 {
+  margin-bottom: 20px;
+}
+
+.posts .card p {
+  margin-bottom: 20px;
+}
+
+.posts .card .deleteBtn {
+  padding: 7px;
+  margin-top: 10px;
+  background-color: black;
+  color: #c7ecee;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-box-shadow: 0 0 10px darcred;
+          box-shadow: 0 0 10px darcred;
+  border-radius: 5px;
+}
+/*# sourceMappingURL=main.css.map */

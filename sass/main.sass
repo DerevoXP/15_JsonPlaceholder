@@ -1,0 +1,88 @@
+*
+    margin: 0
+    padding: 0
+
+.page
+    min-height: 100vh
+    &:nth-child(1) // так используется вложенность, вроде. Или как оно там называется.
+        background-color: #dff9fb
+    &:nth-child(2)
+        background-color: #c7ecee
+    &:nth-child(3)
+        background-color: #95afc0
+    &:nth-child(4)
+        background-color: dimgray
+
+#menuBtns
+    display: flex
+    position: fixed
+    flex-wrap: wrap
+    width: 10%
+    height: fit-content
+    margin: 5px 0 0 2.5%
+    font-family: 'Lobster', cursive
+    .btn
+        width: 100%
+        margin-top: 10px
+        padding: 10px
+        background-color: black
+        color: #c7ecee
+        cursor: pointer
+        border-radius: 5px
+
+.modell
+    position: fixed
+    font-family: 'Lobster', cursive
+    div
+        background-color: #30336b
+        color: #c7ecee
+        margin: 40vh 33vw 40vh 33vw
+        width: 33vw
+        height: 20vh
+        display: flex
+        align-items: center
+        justify-content: center
+        padding: 15px
+        cursor: pointer
+        border-radius: 10px
+
+#root
+    display: inline-block // это чтобы избавиться от белой полосы вверху (вроде, признанный баг)
+    margin: 30vh 35vw 0 35vw
+    background-color: black
+    border-radius: 10px
+    width: 200px
+    height: fit-content
+    font-family: 'Pattaya', sans-serif
+    .card
+        padding: 10px
+        margin: 15px 0 15px 15px
+        background-color: black
+        width: 150px
+        color: #dff9fb
+        text-align: center
+        cursor: pointer
+
+.posts
+    .card
+        display: inline-block
+        width: 80%
+        height: fit-content
+        background-color: #535c68
+        margin: 16px 5% 10px 15%
+        border-radius: 10px
+        padding: 15px
+        font-family: 'Lobster', cursive
+        h2
+            margin-bottom: 20px
+        p
+            margin-bottom: 20px
+        .deleteBtn
+            padding: 7px
+            margin-top: 10px
+            background-color: black
+            color: #c7ecee
+            display: inline-block
+            cursor: pointer
+            box-shadow: 0 0 10px darcred
+            border-radius: 5px
